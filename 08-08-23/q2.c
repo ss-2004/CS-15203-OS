@@ -1,7 +1,13 @@
+//Q2
+/*
+ * Write C programs to simulate UNIX commands like ls, grep, etc.
+ */
+
 #include<stdio.h>
 #include<string.h>
 #include<dirent.h>
 #include<stdlib.h>
+
 // argv[2] = pattern
 // argv[1] = file
 
