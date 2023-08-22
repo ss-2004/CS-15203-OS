@@ -1,3 +1,8 @@
+//Q4
+/*
+ * Determine the size of a file using the lseek command. Once you found out the size, calculate the number of blocks assigned for the file. Compare these results with the similar results obtained when using the function stat.
+ */
+
 #include <stdio.h>
 #include <fcntl.h>
 #include <stdlib.h>
