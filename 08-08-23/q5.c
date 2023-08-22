@@ -1,3 +1,8 @@
+//Q5
+/*
+ * Write a program to change current working directory and display the inode details for each file in the new directory using the system calls: opendir( ), readdir( ), closedir( ), getcwd( ), chdir( ).
+ */
+
 #include<stdio.h>
 #include<string.h>
 #include<dirent.h>
