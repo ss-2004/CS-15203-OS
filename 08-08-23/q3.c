@@ -1,3 +1,15 @@
+//Q3
+/*
+ * Write a program to implement
+ * 1. Create a file
+ * 2. Read contents of a file
+ * 3. Write to a file
+ * 4. Link and unlink a file
+ * 5. Copy file
+ * 6. Read contents of a file in a reverse order
+ * Using the system calls: open( ), close( ), read( ), write( ), lseek( ), link( ), unlink( ).
+ */
+
 #include<stdio.h>
 #include<fcntl.h>
 #include<string.h>
