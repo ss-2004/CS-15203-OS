@@ -1,6 +1,8 @@
+// Q3
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
+#include <unistd.h>
 
 void sigint_hndlr(int signum) {
     printf("\n\tCaught SIGINT (^C)!\n\tExiting...\n");
@@ -9,13 +11,13 @@ void sigint_hndlr(int signum) {
 }
 
 int main() {
-    if(signal(SIGINT, sigint_hndlr) == SIG_ERR) {
+    if (signal(SIGINT, sigint_hndlr) == SIG_ERR) {
         perror("signal\n");
         return 1;
     }
 
     printf("Press ^C for simulating interrupt SIGINT.\n");
-    while(1){
+    while (1) {
         printf("Performing random bg tasks...\n\n");
         sleep(2);
     }
