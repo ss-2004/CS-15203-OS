@@ -1,8 +1,9 @@
-#include <cmath.h>
+// Q1b
+#include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv) {
     int num1 = atoi(argv[1]);
     int num2 = atoi(argv[2]);
     char op = argv[3][0];
@@ -10,17 +11,17 @@ int main(int argc, char** argv) {
 
     if (op == 'e')
         exit(0);
-    else if(op == '+')
+    else if (op == '+')
         result = num1 + num2;
-    else if(op == '-')
+    else if (op == '-')
         result = num1 - num2;
-    else if(op == '*')
+    else if (op == '*')
         result = num1 * num2;
-    else if(op == '/')
+    else if (op == '/')
         result = num1 / num2;
-    else if(op == '%')
+    else if (op == '%')
         result = num1 % num2;
-    else if(op == '^')
+    else if (op == '^')
         result = pow(num1, num2);
     else {
         fprintf(stderr, "INVALID OPERATION %c !\n", op);
