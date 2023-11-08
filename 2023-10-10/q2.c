@@ -1,4 +1,14 @@
-// Q2
+/* Q2 
+ * Test the source code below: 
+ * for ( i=1;i≤10;i++) 
+ * { 
+ *      fork (); 
+ *      printf (“The process with the PID=%d”,getpid ( )); 
+ * } 
+ * In the next phase, modify the code, such that after all created processes have finished execution
+ * A file process management.txt has total number of created processes should be stored.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
