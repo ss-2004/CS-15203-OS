@@ -1,4 +1,11 @@
-// Q1b
+/* Q1b
+ * Server code executes the arithmetic operation. 
+ * After the child (server) process finishes the operation, it transmits the result to parent process (client) 
+ * Lastly, with the help of the system call exit. 
+ * The client process prints the result on the screen and also reprints the prompter, ready for a new reading.
+ * The read information is transmitted with the help of the system call execl to a child process
+ */
+
 #include <math.h>
 #include <stdio.h>
 #include <stdlib.h>
