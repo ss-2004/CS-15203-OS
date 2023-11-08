@@ -1,3 +1,4 @@
+// Q1 : Sum of array using pthreads
 
 #include <stdio.h>
 #include <stdlib.h>
