@@ -1,4 +1,4 @@
-// UNREALTED PROCESSES
+// UNRELATED PROCESSES
 
 #include <stdio.h>
 #include <fcntl.h>
