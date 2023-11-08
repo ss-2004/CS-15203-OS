@@ -1,3 +1,4 @@
+// Q2 : Searching element in array using pthreads
 
 #include <stdio.h>
 #include <stdlib.h>
