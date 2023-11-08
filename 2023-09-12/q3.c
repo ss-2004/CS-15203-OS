@@ -1,4 +1,4 @@
-// Q3 : Find maximum element in the array
+// Q3 : Find maximum element in the array using pthreads
 
 #include <stdio.h>
 #include <limits.h>
