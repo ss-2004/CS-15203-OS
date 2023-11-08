@@ -1,4 +1,8 @@
-//Q1
+/* Q1
+ * The client program lists a prompter and reads from the keyboard two integers and one of the characters '+' or '-'. 
+ * The read information is transmitted with the help of the system call excel to a child process
+ */ 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
