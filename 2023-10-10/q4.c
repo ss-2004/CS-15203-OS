@@ -1,4 +1,5 @@
-// Q4
+// Q4 : Write a program to implement blocking of signal.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
