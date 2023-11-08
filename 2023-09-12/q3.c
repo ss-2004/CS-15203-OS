@@ -1,3 +1,5 @@
+// Q3 : Find maximum element in the array
+
 #include <stdio.h>
 #include <limits.h>
 #include <stdlib.h>
