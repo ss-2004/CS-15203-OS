@@ -1,4 +1,5 @@
-// Q3
+// Q3 : Write a program to implement signal handling.
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <signal.h>
